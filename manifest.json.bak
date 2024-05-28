@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "页首页尾快速跳转",
+    "version": "3",
+    "description": "提供快速返回页首和页尾的按钮",
+    "permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+      }
+    },
+    "icons": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+}
